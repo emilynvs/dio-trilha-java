@@ -1,4 +1,4 @@
-package org.example.poo;
+package org.example.poo.desafioCelular;
 
 public interface AparelhoEletronico {
     void ligar(String numero);

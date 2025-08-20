@@ -1,4 +1,4 @@
-package org.example.poo;
+package org.example.poo.desafioCelular;
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         IPhone iPhone = new IPhone();
-        Scanner sc = MeuScanner.getInstance();
+        Scanner sc = new Scanner(System.in);
         int op = -1;
         while(true){
             if (op == 0){
@@ -57,7 +57,7 @@ public class Main {
 
     private static int menu() {
             
-            Scanner sc = MeuScanner.getInstance();
+            Scanner sc = new Scanner(System.in);
             System.out.println("Escolha uma das opções: ");
             System.out.println("1 - Tocar música");
             System.out.println("2 - pausar");
@@ -71,7 +71,7 @@ public class Main {
             System.out.println("0 - Desligar");
 
             int op = sc.nextInt();
-            sc.nextLine();
+        sc.nextLine();
             return op; 
     }
 

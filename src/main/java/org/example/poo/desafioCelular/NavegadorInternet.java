@@ -1,4 +1,4 @@
-package org.example.poo;
+package org.example.poo.desafioCelular;
 
 public interface NavegadorInternet {
     void exibirPagina(String url);
