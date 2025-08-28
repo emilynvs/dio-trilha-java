@@ -1,0 +1,14 @@
+spring.application.name=projeto-spring
+
+adicione fazendo as alterações necessarias(SEU_USUARIO, SUA_SENHA)
+
+spring.datasource.url=jdbc:h2:mem:dcbapp
+spring.datasource.username=SEU_USUARIO
+spring.datasource.password=SUA_SENHA
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+spring.jpa.show-sql=true
+spring.jpa.hibernate.ddl-auto=create-drop
+
+spring.security.user.name=SEU_USUARIO
+spring.security.user.password=SUA_SENHA
+spring.security.user.roles=USERS
